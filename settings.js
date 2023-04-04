@@ -5,7 +5,7 @@ export const registerSettings = function () {
 	let modulename = "monks-active-tiles";
 
 	game.settings.register(modulename, "default-trigger", {
-		name: i18n("MonksActiveTiles.default-trigger.name"),
+		id: i18n("MonksActiveTiles.default-trigger.id"),
 		hint: i18n("MonksActiveTiles.default-trigger.hint"),
 		scope: "world",
 		config: true,
